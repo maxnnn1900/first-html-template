@@ -19,5 +19,8 @@
 - js/main_babel.js # импорты кода которым требуется **babel**
 - js/external/*.js # сдесь можно положить js файлы которые не будут обрабатываться и будут скопированы в **build/js/external** как есть
 
+- gulp/tasks - задачи gulp
+- gulp/config - список задач для gulp которые подгружаются в конфигурацию **gulpfile.js**
+- gulpfile.js - ядро настроек gulp
 
 По умолчанию устанавливаются jQuery, Popper.js, Bootstrap
