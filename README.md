@@ -12,7 +12,7 @@
 - sass/cusom.scss # ваш код
 - sass/cusom.scss # ваши импорты 
 - sass/variables.scss # scss переменные свои и для переопределения Bootstrap
-- sass/mixins # полезные миксины
+- sass/helpers # полезные миксины и sass функции
 - css/*.css # сдесь можно положить css файлы которые не будут обрабатываться и будут скопированы в **build/css/** как есть
 - js/script.js # ваш код
 - js/main.js # импорты через **gulp-include**
